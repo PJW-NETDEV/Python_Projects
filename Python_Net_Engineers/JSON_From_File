@@ -1,0 +1,7 @@
+import json
+
+file_path = "/home/paul/Documents/colours.json"
+json_obj = json.load(open(file_path))
+
+for x in json_obj['colours']:
+    print("Colour: " +  x["colour"] + " Code: " + x['value'])
