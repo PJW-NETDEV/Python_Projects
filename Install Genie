@@ -1,0 +1,81 @@
+## yATS and Genie library installation
+
+**Note:** Requires:
+
+- Python 3 (Installation not covered here)
+- PIP - Python Package Manager
+- pyATS - **pyATS** is the Cisco python testing/automation library.
+- python3-venv - Python Virtual Environment
+
+* * *
+
+### Install dependencies
+
+Update package list (good practice before installing anything)
+`sudo apt update`
+
+Check if PIP installed - `pip3 --version`
+
+Install pip
+`sudo apt install python3-pip`
+
+Verify pip 3 version
+`pip3 --version`
+
+Install genie
+`pip3 install genie`
+
+Intall Python3 Virtual Environment
+sudo apt-get install python3-ven
+
+* * *
+
+## Creating Genie Virtual Environment
+
+To run genie you have to run in a Linix Virtual environment. The Genie Virtual Environment will have all of the correct python libraries installed and the correct versions.
+
+- Create virtual environment
+    `python3 -m venv /path/to/directory`
+    e.g. `python3 -m venv ~paul/Documents/Google\ Docs/Genie/`
+    
+- Activate Environment
+    On Unix or MacOS, using the bash shell:
+    `source /path/to/venv/bin/activate`
+    On Unix or MacOS, using the csh shell:
+    `source /path/to/venv/bin/activate.csh`
+    On Unix or MacOS, using the fish shell:
+    `source /path/to/venv/bin/activate.fish`
+    On Windows using the Command Prompt: `path\to\venv\Scripts\activate.bat`
+    On Windows using PowerShell:
+    `path\to\venv\Scripts\Activate.ps1`
+    
+
+e.g. `soure ~/Documents/Google\ Docs/Genie/bin/activate`
+
+- Install pyATS in Virtual Environment
+    `pip3 install pyats[library]`
+    
+- Install pyats.contrib (required to create testbed file)
+    `pip install pyats.contrib`
+    
+
+***Installation Complete***
+
+* * *
+
+### Optional - Downloaded Cisco Examples
+
+`git clone https://github.com/CiscoTestAutomation/examples`
+
+Next step is create testbed file, see seperate notes.
+
+### Optional - But likely required - Update system SSH Config to allow weak encyption.
+
+Update File: (required sudo)
+`/etc/ssh/ssh_config`
+
+Add:
+`KexAlgorithms=curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1`
+
+Add or uncomment:
+`Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc`
