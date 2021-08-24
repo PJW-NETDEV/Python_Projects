@@ -1,0 +1,17 @@
+def load_json():
+    json_file = "GBCLT-CSW1_show-ip-interface-brief_parsed.json"
+    with open(json_file) as json_file:
+        data = json.load(json_file)
+        
+    # Convert to cleaner dictionary
+    for interface in data['interface']:
+        if "Vlan" in interface:
+            interface_type = "virtual"
+        else:
+            interface_type = "100base-tx"
+
+        import_data = {
+        "interface_name": interface,
+        "interface_ip": data['interface'][interface]['ip_address'],
+        "interface_type": interface_type
+        }
