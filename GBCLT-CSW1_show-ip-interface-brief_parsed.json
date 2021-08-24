@@ -1,0 +1,435 @@
+{
+  "_exclude": [
+    "method",
+    "(Tunnel.*)"
+  ],
+  "interface": {
+    "FastEthernet1/0/1": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "FastEthernet1/0/10": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/11": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/12": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/13": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "FastEthernet1/0/14": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "FastEthernet1/0/15": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "FastEthernet1/0/16": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/17": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/18": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/19": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/2": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "FastEthernet1/0/20": {
+      "interface_is_ok": "YES",
+      "ip_address": "10.250.1.1",
+      "method": "NVRAM",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/21": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/22": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/23": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/24": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/25": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "FastEthernet1/0/26": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "up"
+    },
+    "FastEthernet1/0/27": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/28": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/29": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/3": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/30": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/31": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/32": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/33": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/34": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/35": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/36": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/37": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "FastEthernet1/0/38": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/39": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "FastEthernet1/0/4": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/40": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "FastEthernet1/0/41": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/42": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/43": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/44": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/45": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/46": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/47": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/48": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/5": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/6": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/7": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/8": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "FastEthernet1/0/9": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "GigabitEthernet1/0/1": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "GigabitEthernet1/0/2": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "GigabitEthernet1/0/3": {
+      "interface_is_ok": "YES",
+      "ip_address": "192.168.100.1",
+      "method": "manual",
+      "protocol": "down",
+      "status": "down"
+    },
+    "GigabitEthernet1/0/4": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "up",
+      "status": "up"
+    },
+    "Loopback100": {
+      "interface_is_ok": "YES",
+      "ip_address": "172.16.100.1",
+      "method": "manual",
+      "protocol": "up",
+      "status": "up"
+    },
+    "Port-channel1": {
+      "interface_is_ok": "YES",
+      "ip_address": "unassigned",
+      "method": "unset",
+      "protocol": "down",
+      "status": "down"
+    },
+    "Vlan1": {
+      "interface_is_ok": "YES",
+      "ip_address": "172.16.5.1",
+      "method": "NVRAM",
+      "protocol": "up",
+      "status": "up"
+    },
+    "Vlan10": {
+      "interface_is_ok": "YES",
+      "ip_address": "172.16.10.1",
+      "method": "NVRAM",
+      "protocol": "up",
+      "status": "up"
+    },
+    "Vlan15": {
+      "interface_is_ok": "YES",
+      "ip_address": "172.16.15.1",
+      "method": "NVRAM",
+      "protocol": "up",
+      "status": "up"
+    },
+    "Vlan16": {
+      "interface_is_ok": "YES",
+      "ip_address": "172.16.16.1",
+      "method": "NVRAM",
+      "protocol": "up",
+      "status": "up"
+    },
+    "Vlan20": {
+      "interface_is_ok": "YES",
+      "ip_address": "172.16.20.1",
+      "method": "NVRAM",
+      "protocol": "up",
+      "status": "up"
+    },
+    "Vlan30": {
+      "interface_is_ok": "YES",
+      "ip_address": "172.16.30.1",
+      "method": "manual",
+      "protocol": "up",
+      "status": "up"
+    },
+    "Vlan6": {
+      "interface_is_ok": "YES",
+      "ip_address": "172.16.6.1",
+      "method": "NVRAM",
+      "protocol": "up",
+      "status": "up"
+    }
+  }
+}
