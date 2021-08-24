@@ -1,0 +1,17 @@
+# Creating a Genie testbed file
+
+- Testbed file is a json file containing device connectivity information. pyATS created the tesbed file from a .xls or .csv file.
+    
+- Create a XLS with following headers:Use the following columns header to create a testbed yaml file from Excel/csv file:
+    
+    - **hostname** : *the host name of the device*
+    - **ip** : *the ip address of the device, to specify a port, add the port number in the format of:* `ip:port`
+    - **username** : *the username for logging into the device*
+    - **password** : *the default password for logging into the device, user can leave this field blank for security reason, and Genie will prompt you to enter the password when you connect to the device*
+    - **protocol** : *the protocol used to connected to the device i.e. ssh, telnet, etc..*
+    - **os** : *the operating system for the device i.e. iosxr, iosxe, nxos, linux, etc..*
+    - **enable_password** : *(Optional) to provide a different password for entering privileged EXEC mode with `enable` command*
+- Upload testbed file to server
+    
+- Create a testbed file and upload to server.
+    `pyats create testbed file --path=lab-inventory.xls --output yaml/my_testbed.yaml`
